@@ -14,14 +14,12 @@ body {
 
 .a1, .a2, .a3, .a4 {
 
-
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 18px;
   text-decoration: none;
-
   color: #FFFFFF;
 }
 
@@ -31,94 +29,90 @@ body {
   height: 18px;
   left: 305px;
   top: 55px;
-
 }
 
 .a2 {
   position: absolute;
-width: 66px;
-height: 18px;
-left: 498px;
-top: 55px;
+  width: 66px;
+  height: 18px;
+  left: 498px;
+  top: 55px;
 }
 
 .a3 {
   position: absolute;
-width: 101px;
-height: 18px;
-left: 633px;
-top: 55px;
+  width: 101px;
+  height: 18px;
+  left: 633px;
+  top: 55px;
 }
 
 .a4 {
   position: absolute;
-width: 173px;
-height: 18px;
-left: 802px;
-top: 55px;
-
+  width: 173px;
+  height: 18px;
+  left: 802px;
+  top: 55px;
 }
 
-
-
-
-/* .topnav a {
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%;
-  float: left;
-  position: absolute;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+h2 {
   font-family: Proxima Nova;
-  font-style: normal;
+  font-style:normal;
   font-weight: normal;
-  font-size: 15px;
-  line-height: 18px;
+  font-size: 40px;
+  line-height: 49px;
 
+  color: #FFFFFF;
+}
 
+.h21 {
+  position: absolute;
+  width: 135px;
+  height: 49px;
+  left: 573px;
+  top: 126px;
+}
 
-} */
-
-
-
-
+.h22 {
+  position: absolute;
+  width: 282px;
+  height: 49px;
+  left: 499px;
+  top: 626px;
+}
 
 
 .proxima {
   position: absolute;
-width: 1077px;
-height: 280px;
-left: 102px;
-top: 170px;
+  width: 1077px;
+  height: 280px;
+  left: 102px;
+  top: 170px;
 
-font-family: Proxima Nova;
-font-style: normal;
-font-weight: 900;
-font-size: 230px;
-line-height: 280px;
-
-color: #FFFFFF;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 230px;
+  line-height: 280px;
+  color: #FFFFFF;
 }
 
 .nova {
   position: absolute;
-width: 662px;
-height: 280px;
-left: 309px;
-top: 360px;
+  width: 662px;
+  height: 280px;
+  left: 309px;
+  top: 360px;
 
-font-family: Proxima Nova;
-font-style: normal;
-font-weight: 900;
-font-size: 230px;
-line-height: 280px;
-display: flex;
-align-items: center;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 230px;
+  line-height: 280px;
+  display: flex;
+  align-items: center;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 
-mix-blend-mode: normal;
+  mix-blend-mode: normal;
 }
