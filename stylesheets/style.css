@@ -12,6 +12,81 @@ body {
   background-color: black;
 }
 
+.a1, .a2, .a3, .a4 {
+
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration: none;
+
+  color: #FFFFFF;
+}
+
+.a1 {
+  position: absolute;
+  width: 125px;
+  height: 18px;
+  left: 305px;
+  top: 55px;
+
+}
+
+.a2 {
+  position: absolute;
+width: 66px;
+height: 18px;
+left: 498px;
+top: 55px;
+}
+
+.a3 {
+  position: absolute;
+width: 101px;
+height: 18px;
+left: 633px;
+top: 55px;
+}
+
+.a4 {
+  position: absolute;
+width: 173px;
+height: 18px;
+left: 802px;
+top: 55px;
+
+}
+
+
+
+
+/* .topnav a {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  float: left;
+  position: absolute;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+
+
+} */
+
+
+
+
+
+
 .proxima {
   position: absolute;
 width: 1077px;
