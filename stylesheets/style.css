@@ -1,9 +1,28 @@
-body {
+/* body {
   position: relative;
   width: 1280px;
-  height: 16085px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
   background: #FFFFFF;
 }
+
+body::before {
+  background: url('images/iMac1.jpg');
+  content: '';
+  opacity: .2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+}
+html {
+  background: #bbb;
+  height: 16085px;
+  position: relative;
+} */
+
 
 .cover1 {
   position: absolute;
@@ -55,13 +74,13 @@ body {
   top: 55px;
 }
 
+
 h2 {
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
   line-height: 49px;
-
   color: #FFFFFF;
 }
 
@@ -70,7 +89,7 @@ h2 {
   width: 135px;
   height: 49px;
   left: 573px;
-  top: 126px;
+  top: 92px;
 }
 
 .h22 {
@@ -78,16 +97,17 @@ h2 {
   width: 282px;
   height: 49px;
   left: 499px;
-  top: 626px;
+  top: 592px;
 }
 
 
 .proxima {
   position: absolute;
-width: 1077px;
-height: 280px;
-left: 102px;
-top: 50px;
+  width: 1077px;
+  height: 280px;
+  left: 102px;
+  top: 17px;
+
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: 900;
@@ -101,7 +121,7 @@ top: 50px;
   width: 662px;
   height: 280px;
   left: 309px;
-  top: 250px;
+  top: 207px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -112,170 +132,155 @@ top: 50px;
   align-items: center;
 
   color: #FFFFFF;
-
-  mix-blend-mode: normal;
 }
 
 .divider1 {
   position: absolute;
-width: 8px;
-height: 8px;
-left: 636px;
-top: 850px;
-border-radius: 50%;
-
-background: #000000;
-}
-
-.divider2 {
-  position: absolute;
-width: 49px;
-height: 0px;
-left: 639px;
-top: 851px;
-
-border: 2px solid #000000;
-transform: rotate(90deg);
+  width: 8px;
+  height: 50px;
+  left: 636px;
+  top: 850px;
 }
 
 .d1981 {
   position: absolute;
-width: 296px;
-height: 162px;
-left: 492px;
-top: 917px;
+  width: 296px;
+  height: 162px;
+  left: 492px;
+  top: 825px;
 
-font-family: Proxima Nova;
-font-style: normal;
-font-weight: 900;
-font-size: 133px;
-line-height: 162px;
-/* identical to box height */
-
-
-color: #000000;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 133px;
+  line-height: 162px;
+  color: #000000;
 }
 
 .text1 {
   position: absolute;
-width: 800px;
-height: 30px;
-left: 241px;
-top: 1139px;
+  width: 800px;
+  height: 30px;
+  left: 241px;
+  top: 1115px;
 
-font-family: Proxima Nova;
-font-style: normal;
-font-weight: 300;
-font-size: 25px;
-line-height: 30px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
 
-color: #000000;
+  color: #000000;
 }
 
-.img1 {position: absolute;
-width: 1303px;
-height: 302px;
-left: -11px;
-top: 1209px;}
+.img1 {
+  position: absolute;
+  width: 1303px;
+  height: 302px;
+  left: -11px;
+  top: 1209px;
+}
 
 .cover2 {
   position: absolute;
-width: 1280px;
-height: 1080px;
-left: 0px;
-top: 1451px;
+  width: 1280px;
+  height: 1080px;
+  left: 0px;
+  top: 1451px;
 
-background: #000000;
+  background: #000000;
 }
 
-/* .divid1 {
+
+.divider2 {
   position: absolute;
-width: 8px;
-height: 8px;
-left: 636px;
-top: 1551px;
+  width: 8px;
+  height: 50px;
+  left: 636px;
+  top: 1551px;
 
-background: #FFFFFF;
+  }
 
-}
-
-.divid2 {
-  position: absolute;
-width: 49px;
-height: 0px;
-left: 639px;
-top: 1552px;
-
-border: 2px solid #FFFFFF;
-transform: rotate(90deg);
-} */
 
 .d1990-1993 {
   position: absolute;
-width: 1061px;
-height: 244px;
-left: 110px;
-top: 1601px;
+  width: 1061px;
+  height: 244px;
+  left: 110px;
+  top: 1465px;
+  text-align: center;
 
-font-family: Proxima Nova;
-font-style: normal;
-font-weight: 900;
-font-size: 200px;
-line-height: 244px;
-/* identical to box height */
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 244px;
 
+  color: #ABFF8D;
 
-color: #ABFF8D;
 }
 
 .text2 {
   position: absolute;
-width: 800px;
-height: 120px;
-left: 259px;
-top: 2000px;
+  width: 800px;
+  height: 120px;
+  left: 259px;
+  top: 1869px;
 
-font-family: Proxima Nova;
-font-style: normal;
-font-weight: 300;
-font-size: 25px;
-line-height: 30px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
 
-color: #FFFFFF;
+  color: #FFFFFF;
+
+}
+
+
+
+.divider3 {
+
+  position: absolute;
+  width: 8px;
+  height: 50px;
+  left: 655px;
+  top: 2067px;
+
 
 }
 
 .text3 {
   position: absolute;
-width: 800px;
-height: 60px;
-left: 259px;
-top: 2167px;
+  width: 800px;
+  height: 60px;
+  left: 259px;
+  top: 2145px;
 
-font-family: Proxima Nova;
-font-style: normal;
-font-weight: 300;
-font-size: 25px;
-line-height: 30px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 
 }
 
 .text4 {
   position: absolute;
-width: 800px;
-height: 151px;
-left: 259px;
-top: 2277px;
+  width: 800px;
+  height: 151px;
+  left: 259px;
+  top: 2250px;
 
-font-family: Proxima Nova;
-font-style: normal;
-font-weight: 300;
-font-size: 25px;
-line-height: 30px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 
 }
 
@@ -284,19 +289,474 @@ color: #FFFFFF;
   position: absolute;
   width: 259px;
   height: 134px;
-  left: 103px;
-  top: 2426px;
+  left: 40px;
+  top: 2140px;
 
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: 900;
   font-size: 110px;
   line-height: 134px;
-  /* identical to box height */
-
- */
 
   color: #FFFFFF;
 
   transform: rotate(-90deg);
+}
+
+.divider4 {
+  position: absolute;
+  width: 8px;
+  height: 50px;
+  left: 637px;
+  top: 2631px;
+}
+
+.text5 {
+  position: absolute;
+  width: 800px;
+  height: 180px;
+  left: 241px;
+  top: 2705px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+.text6 {
+  position: absolute;
+  width: 800px;
+  height: 119px;
+  left: 241px;
+  top: 2940px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #000000;
+
+}
+
+
+.number21 {
+  position: absolute;
+  width: 78px;
+  height: 90px;
+  left: 127px;
+  top: 2690px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 127px;
+  line-height: 90px;
+  /* identical to box height, or 71% */
+
+
+  color: #737EE6;
+}
+
+.number01 {
+  position: absolute;
+  width: 80px;
+  height: 90px;
+  left: 131px;
+  top: 2890px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 127px;
+  line-height: 90px;
+  /* identical to box height, or 71% */
+
+
+  color: #ABFF8D;
+}
+
+.number02 {
+  position: absolute;
+  width: 80px;
+  height: 90px;
+  left: 1072px;
+  top: 2690px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 127px;
+  line-height: 90px;
+  /* identical to box height, or 71% */
+
+
+  color: #ABFF8D;
+}
+
+
+.number22 {
+  position: absolute;
+  width: 78px;
+  height: 90px;
+  left: 1076px;
+  top: 2890px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 127px;
+  line-height: 90px;
+  /* identical to box height, or 71% */
+
+
+  color: #737EE6;
+}
+
+
+.numberspic {
+  position: absolute;
+  width: 1416px;
+  height: 1028px;
+  left: -68px;
+  top: 3041px;
+}
+
+.divider5 {
+  position: absolute;
+  width: 8px;
+  height: 50px;
+  left: 636px;
+  top: 4001px;
+}
+
+.d2005-2009 {
+  position: absolute;
+  width: 1067px;
+  height: 233px;
+  left: 107px;
+  top: 3925px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 191px;
+  line-height: 233px;
+
+  color: #737EE6;
+}
+
+.text7 {
+  position: absolute;
+  width: 892px;
+  height: 180px;
+  left: 240px;
+  top: 4305px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+.opattern {
+  position: absolute;
+  width: 1451px;
+  height: 1103px;
+  left: -85px;
+  top: 4444px;
+}
+
+.divider6 {
+  position: absolute;
+  width: 8px;
+  height: 50px;
+  left: 636px;
+  top: 5481px;
+
+}
+
+.d2009 {
+  position: absolute;
+  width: 120px;
+  height: 58px;
+  left: 90px;
+  top: 5575px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+
+  color: #000000;
+
+  transform: rotate(-90deg);
+}
+
+.text8 {
+  position: absolute;
+  width: 800px;
+  height: 120px;
+  left: 240px;
+  top: 5555px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+.letters1 {
+  position: absolute;
+  width: 1412px;
+  height: 1351px;
+  left: -66px;
+  top: 5487px;
+}
+
+.divider7 {
+  position: absolute;
+  width: 8px;
+  height: 50px;
+  left: 636px;
+  top: 6731px;
+}
+
+.d2003 {
+  position: absolute;
+  width: 312px;
+  height: 162px;
+  left: 484px;
+  top: 6690px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 133px;
+  line-height: 162px;
+
+  color: #FFFFFF;
+
+}
+
+.text9 {
+  position: absolute;
+  width: 800px;
+  height: 245px;
+  left: 240px;
+  top: 7010px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #FFFFFF;
+}
+
+.text10 {
+  position: absolute;
+  width: 800px;
+  height: 60px;
+  left: 240px;
+  top: 7298px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #FFFFFF;
+}
+
+.cover3 {
+  position: absolute;
+  width: 1280px;
+  height: 850px;
+  left: 0px;
+  top: 6631px;
+
+  background: #000000;
+}
+
+
+.numbers2 {
+  position: absolute;
+  width: 1284px;
+  height: 788px;
+  left: -2px;
+  top: 7527px;
+}
+
+.text11 {
+  position: absolute;
+  width: 800px;
+  height: 210px;
+  left: 240px;
+  top: 8355px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+.text12 {
+  position: absolute;
+  width: 800px;
+  height: 210px;
+  left: 240px;
+  top: 8620px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+.cover4 {
+  position: absolute;
+  width: 1280px;
+  height: 657px;
+  left: 0px;
+  top: 8950px;
+
+  background: #000000;
+}
+
+.proximatext1 {
+  position: absolute;
+  width: 315px;
+  height: 61px;
+  left: 127px;
+  top: 8990px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 61px;
+
+
+  text-align: justify;
+
+  color: #FFFFFF;
+}
+
+.textsquare1 {
+  position: absolute;
+  width: 1019.63px;
+  height: 324px;
+  left: 130px;
+  top: 9183px;
+
+}
+
+.proximatext2 {
+  position: absolute;
+  width: 505px;
+  height: 61px;
+  left: 127px;
+  top: 9645px;
+
+  font-family: Proxima Nova Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 61px;
+
+  text-align: justify;
+
+  color: #000000;
+}
+
+
+.textcircle {
+  position: absolute;
+  width: 1039.58px;
+  height: 330.58px;
+  left: 120px;
+  top: 9841px;
+
+}
+
+.cover5 {
+  position: absolute;
+  width: 1280px;
+  height: 657px;
+  left: 0px;
+  top: 10270px;
+
+  background: #000000;
+}
+
+.proximatext3 {
+  position: absolute;
+  width: 517px;
+  height: 61px;
+  left: 127px;
+  top: 10310px;
+
+  font-family: Proxima Nova Extra Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 61px;
+
+  text-align: justify;
+
+  color: #FFFFFF;
+}
+
+.textsquare2 {
+  position: absolute;
+  width: 1019.63px;
+  height: 323.63px;
+  left: 130px;
+  top: 10503px;
+}
+
+.text13 {
+  position: absolute;
+  width: 909px;
+  height: 74px;
+  left: 130px;
+  top: 11000px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 37px;
+
+  color: #000000;
+}
+
+.logospic {
+  position: absolute;
+  width: 1035px;
+  height: 523px;
+  left: 123px;
+  top: 11200px;
 }
