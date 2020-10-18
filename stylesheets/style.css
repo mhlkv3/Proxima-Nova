@@ -23,6 +23,9 @@ html {
   position: relative;
 } */
 
+div {
+  overflow: hidden;
+}
 
 .cover1 {
   position: absolute;
@@ -759,4 +762,184 @@ h2 {
   height: 523px;
   left: 123px;
   top: 11200px;
+}
+
+.glitchtextpic {
+  position: absolute;
+  width: 1434px;
+  height: 971px;
+  left: -77px;
+  top: 11712px;
+}
+
+.textdif {
+  position: absolute;
+  width: 766px;
+  height: 255px;
+  left: 257px;
+  top: 12694px;
+}
+
+.cover6 {
+  position: absolute;
+  width: 1280px;
+  height: 901px;
+  left: 0px;
+  top: 13050px;
+
+  background: #000000;
+}
+
+.text14 {
+  position: absolute;
+  width: 509px;
+  height: 74px;
+  left: 130px;
+  top: 13123px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: justify;
+
+  color: #FFFFFF;
+}
+
+.list1 {
+  position: absolute;
+  width: 487px;
+  height: 122px;
+  left: 95px;
+  top: 13190px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 122px;
+  list-style-type: none;
+  line-height: 98px;
+
+  color: #FFFFFF;
+}
+
+.list2 {
+  position: absolute;
+  width: 242px;
+  height: 160px;
+  left: 880px;
+  top: 13290px;
+  list-style-type: none;
+  text-align: right;
+
+  font-family: Proxima Nova;font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+
+  color: #FFFFFF;
+
+}
+
+.text15 {
+  position: absolute;
+  width: 874px;
+  height: 37px;
+  left: 128px;
+  top: 14020px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 37px;
+
+  text-align: justify;
+
+  color: #000000;
+}
+
+.cardspic {
+  position: absolute;
+  width: 1280px;
+  height: 350px;
+  left: 0px;
+  top: 14150px;
+
+  background: url(Fields-Business-Card-Bundle-1-02.jpg);
+
+}
+
+.stickerspic {
+  position: absolute;
+  width: 1280px;
+  height: 580px;
+  left: 0px;
+  top: 14500px;
+
+}
+
+.clockpic {
+  position: absolute;
+  width: 558.31px;
+  height: 750px;
+  left: 0px;
+  top: 15080px;
+
+}
+
+.labelpic {
+  position: absolute;
+  width: 722px;
+  height: 750px;
+  left: 558px;
+  top: 15080px;
+}
+
+.text16 {
+  position: absolute;
+  width: 397px;
+  height: 27px;
+  left: 442px;
+  top: 15910px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 27px;
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.text17 {
+  position: absolute;
+  width: 189px;
+  height: 22px;
+  left: 546px;
+  top: 15950px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.cover7 {
+  position: absolute;
+  width: 1280px;
+  height: 255px;
+  left: 0px;
+  top: 15830px;
+
+  background: #000000;
 }
