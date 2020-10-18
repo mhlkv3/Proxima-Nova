@@ -1,0 +1,49 @@
+body {
+  position: relative;
+  width: 1280px;
+  height: 16085px;
+  background: #FFFFFF;
+}
+
+.cover1 {
+  position: absolute;
+  width: 1280px;
+  height: 800px;
+  background-color: black;
+}
+
+.proxima {
+  position: absolute;
+width: 1077px;
+height: 280px;
+left: 102px;
+top: 170px;
+
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: 900;
+font-size: 230px;
+line-height: 280px;
+
+color: #FFFFFF;
+}
+
+.nova {
+  position: absolute;
+width: 662px;
+height: 280px;
+left: 309px;
+top: 360px;
+
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: 900;
+font-size: 230px;
+line-height: 280px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+}
