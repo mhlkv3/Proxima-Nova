@@ -244,3 +244,59 @@ line-height: 30px;
 color: #FFFFFF;
 
 }
+
+.text3 {
+  position: absolute;
+width: 800px;
+height: 60px;
+left: 259px;
+top: 2167px;
+
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+}
+
+.text4 {
+  position: absolute;
+width: 800px;
+height: 151px;
+left: 259px;
+top: 2277px;
+
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+}
+
+.d1993 {
+
+  position: absolute;
+  width: 259px;
+  height: 134px;
+  left: 103px;
+  top: 2426px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 110px;
+  line-height: 134px;
+  /* identical to box height */
+
+ */
+
+  color: #FFFFFF;
+
+  transform: rotate(-90deg);
+}
