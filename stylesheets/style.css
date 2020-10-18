@@ -57,7 +57,7 @@ body {
 
 h2 {
   font-family: Proxima Nova;
-  font-style:normal;
+  font-style: normal;
   font-weight: normal;
   font-size: 40px;
   line-height: 49px;
@@ -84,11 +84,10 @@ h2 {
 
 .proxima {
   position: absolute;
-  width: 1077px;
-  height: 280px;
-  left: 102px;
-  top: 170px;
-
+width: 1077px;
+height: 280px;
+left: 102px;
+top: 50px;
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: 900;
@@ -102,7 +101,7 @@ h2 {
   width: 662px;
   height: 280px;
   left: 309px;
-  top: 360px;
+  top: 250px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -115,4 +114,133 @@ h2 {
   color: #FFFFFF;
 
   mix-blend-mode: normal;
+}
+
+.divider1 {
+  position: absolute;
+width: 8px;
+height: 8px;
+left: 636px;
+top: 850px;
+border-radius: 50%;
+
+background: #000000;
+}
+
+.divider2 {
+  position: absolute;
+width: 49px;
+height: 0px;
+left: 639px;
+top: 851px;
+
+border: 2px solid #000000;
+transform: rotate(90deg);
+}
+
+.d1981 {
+  position: absolute;
+width: 296px;
+height: 162px;
+left: 492px;
+top: 917px;
+
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: 900;
+font-size: 133px;
+line-height: 162px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.text1 {
+  position: absolute;
+width: 800px;
+height: 30px;
+left: 241px;
+top: 1139px;
+
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 30px;
+
+color: #000000;
+}
+
+.img1 {position: absolute;
+width: 1303px;
+height: 302px;
+left: -11px;
+top: 1209px;}
+
+.cover2 {
+  position: absolute;
+width: 1280px;
+height: 1080px;
+left: 0px;
+top: 1451px;
+
+background: #000000;
+}
+
+/* .divid1 {
+  position: absolute;
+width: 8px;
+height: 8px;
+left: 636px;
+top: 1551px;
+
+background: #FFFFFF;
+
+}
+
+.divid2 {
+  position: absolute;
+width: 49px;
+height: 0px;
+left: 639px;
+top: 1552px;
+
+border: 2px solid #FFFFFF;
+transform: rotate(90deg);
+} */
+
+.d1990-1993 {
+  position: absolute;
+width: 1061px;
+height: 244px;
+left: 110px;
+top: 1601px;
+
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: 900;
+font-size: 200px;
+line-height: 244px;
+/* identical to box height */
+
+
+color: #ABFF8D;
+}
+
+.text2 {
+  position: absolute;
+width: 800px;
+height: 120px;
+left: 259px;
+top: 2000px;
+
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 30px;
+
+color: #FFFFFF;
+
 }
