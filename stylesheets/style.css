@@ -1,4 +1,8 @@
-/* body {
+@import 'reset.css';
+
+
+body {
+  font-family: "Proxima Nova"
   position: relative;
   width: 1280px;
   height: 100%;
@@ -21,7 +25,7 @@ html {
   background: #bbb;
   height: 16085px;
   position: relative;
-} */
+}
 
 div {
   overflow: hidden;
@@ -36,7 +40,7 @@ div {
 
 .a1, .a2, .a3, .a4 {
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -78,8 +82,8 @@ div {
 }
 
 
-h2 {
-  font-family: Proxima Nova;
+h3 {
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -87,20 +91,21 @@ h2 {
   color: #FFFFFF;
 }
 
-.h21 {
+.h31 {
   position: absolute;
   width: 135px;
   height: 49px;
   left: 573px;
-  top: 92px;
+  top: 126px;
+
 }
 
-.h22 {
+.h32 {
   position: absolute;
   width: 282px;
   height: 49px;
   left: 499px;
-  top: 592px;
+  top: 626px;
 }
 
 
@@ -109,13 +114,14 @@ h2 {
   width: 1077px;
   height: 280px;
   left: 102px;
-  top: 17px;
+  top: 170px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 900;
   font-size: 230px;
   line-height: 280px;
+
   color: #FFFFFF;
 }
 
@@ -124,9 +130,9 @@ h2 {
   width: 662px;
   height: 280px;
   left: 309px;
-  top: 207px;
+  top: 360px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 900;
   font-size: 230px;
@@ -150,9 +156,9 @@ h2 {
   width: 296px;
   height: 162px;
   left: 492px;
-  top: 825px;
+  top: 917px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 900;
   font-size: 133px;
@@ -165,9 +171,9 @@ h2 {
   width: 800px;
   height: 30px;
   left: 241px;
-  top: 1115px;
+  top: 1139px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 300;
   font-size: 25px;
@@ -210,8 +216,7 @@ h2 {
   width: 1061px;
   height: 244px;
   left: 110px;
-  top: 1465px;
-  text-align: center;
+  top: 1601px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -228,7 +233,7 @@ h2 {
   width: 800px;
   height: 120px;
   left: 259px;
-  top: 1869px;
+  top: 1891px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -258,7 +263,7 @@ h2 {
   width: 800px;
   height: 60px;
   left: 259px;
-  top: 2145px;
+  top: 2167px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -275,7 +280,7 @@ h2 {
   width: 800px;
   height: 151px;
   left: 259px;
-  top: 2250px;
+  top: 2277px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -293,7 +298,7 @@ h2 {
   width: 259px;
   height: 134px;
   left: 40px;
-  top: 2140px;
+  top: 2240px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -319,7 +324,8 @@ h2 {
   width: 800px;
   height: 180px;
   left: 241px;
-  top: 2705px;
+  top: 2731px;
+
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -335,7 +341,7 @@ h2 {
   width: 800px;
   height: 119px;
   left: 241px;
-  top: 2940px;
+  top: 2962px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -353,7 +359,7 @@ h2 {
   width: 78px;
   height: 90px;
   left: 127px;
-  top: 2690px;
+  top: 2776px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -371,7 +377,7 @@ h2 {
   width: 80px;
   height: 90px;
   left: 131px;
-  top: 2890px;
+  top: 2977px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -389,7 +395,7 @@ h2 {
   width: 80px;
   height: 90px;
   left: 1072px;
-  top: 2690px;
+  top: 2776px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -408,7 +414,7 @@ h2 {
   width: 78px;
   height: 90px;
   left: 1076px;
-  top: 2890px;
+  top: 2977px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -428,6 +434,7 @@ h2 {
   height: 1028px;
   left: -68px;
   top: 3041px;
+  overflow: hidden;
 }
 
 .divider5 {
@@ -443,7 +450,7 @@ h2 {
   width: 1067px;
   height: 233px;
   left: 107px;
-  top: 3925px;
+  top: 4055px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -459,7 +466,7 @@ h2 {
   width: 892px;
   height: 180px;
   left: 240px;
-  top: 4305px;
+  top: 4331px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -492,7 +499,7 @@ h2 {
   width: 120px;
   height: 58px;
   left: 90px;
-  top: 5575px;
+  top: 5612px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -511,7 +518,7 @@ h2 {
   width: 800px;
   height: 120px;
   left: 240px;
-  top: 5555px;
+  top: 5581px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -538,12 +545,12 @@ h2 {
   top: 6731px;
 }
 
-.d2003 {
+.d2013 {
   position: absolute;
   width: 312px;
   height: 162px;
   left: 484px;
-  top: 6690px;
+  top: 6799px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -560,7 +567,8 @@ h2 {
   width: 800px;
   height: 245px;
   left: 240px;
-  top: 7010px;
+  top: 7031px;
+
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -576,7 +584,7 @@ h2 {
   width: 800px;
   height: 60px;
   left: 240px;
-  top: 7298px;
+  top: 7321px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -611,7 +619,7 @@ h2 {
   width: 800px;
   height: 210px;
   left: 240px;
-  top: 8355px;
+  top: 8381px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -627,7 +635,7 @@ h2 {
   width: 800px;
   height: 210px;
   left: 240px;
-  top: 8620px;
+  top: 8641px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -653,7 +661,7 @@ h2 {
   width: 315px;
   height: 61px;
   left: 127px;
-  top: 8990px;
+  top: 9037px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -681,7 +689,7 @@ h2 {
   width: 505px;
   height: 61px;
   left: 127px;
-  top: 9645px;
+  top: 9695px;
 
   font-family: Proxima Nova Condensed;
   font-style: normal;
@@ -719,7 +727,7 @@ h2 {
   width: 517px;
   height: 61px;
   left: 127px;
-  top: 10310px;
+  top: 10357px;
 
   font-family: Proxima Nova Extra Condensed;
   font-style: normal;
@@ -745,7 +753,7 @@ h2 {
   width: 909px;
   height: 74px;
   left: 130px;
-  top: 11000px;
+  top: 11027px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -795,7 +803,7 @@ h2 {
   width: 509px;
   height: 74px;
   left: 130px;
-  top: 13123px;
+  top: 13151px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -811,16 +819,15 @@ h2 {
   position: absolute;
   width: 487px;
   height: 122px;
-  left: 95px;
-  top: 13190px;
+  left: 132px;
+  top: 13281px;
 
   font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
   font-size: 100px;
-  line-height: 122px;
+  line-height: 100px;
   list-style-type: none;
-  line-height: 98px;
 
   color: #FFFFFF;
 }
@@ -829,8 +836,8 @@ h2 {
   position: absolute;
   width: 242px;
   height: 160px;
-  left: 880px;
-  top: 13290px;
+  left: 922px;
+  top: 13320px;
   list-style-type: none;
   text-align: right;
 
@@ -843,12 +850,28 @@ h2 {
 
 }
 
+.com {
+  position: absolute;
+  width: 678px;
+  height: 365px;
+  left: 486px;
+  top: 13700px;
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 300px;
+  line-height: 365px;
+
+  color: #FFFFFF;
+}
+
 .text15 {
   position: absolute;
   width: 874px;
   height: 37px;
   left: 128px;
-  top: 14020px;
+  top: 14053px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -903,7 +926,7 @@ h2 {
   width: 397px;
   height: 27px;
   left: 442px;
-  top: 15910px;
+  top: 15930px;
 
   font-family: Proxima Nova;
   font-style: normal;
@@ -921,7 +944,7 @@ h2 {
   width: 189px;
   height: 22px;
   left: 546px;
-  top: 15950px;
+  top: 15963px;
 
   font-family: Proxima Nova;
   font-style: normal;
