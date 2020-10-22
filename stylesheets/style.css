@@ -23,6 +23,7 @@ body {
   height: 100%;
 } */
 
+
 html {
   background: #bbb;
   height: 16085px;
@@ -30,8 +31,6 @@ html {
   scroll-behavior: smooth;
 
 }
-
-
 
 .cover1 {
   position: absolute;
