@@ -2,10 +2,7 @@
 @import 'fonts.css';
 
 body {
-  font-family: "Proxima Nova"; 
-}
-body {
-  font-family: "Proxima Nova";
+  font-family: 'Proxima Nova';
   position: relative;
   width: 1280px;
   height: 100%;
@@ -229,7 +226,7 @@ h3 {
   left: 110px;
   top: 1601px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 900;
   font-size: 200px;
@@ -246,7 +243,7 @@ h3 {
   left: 259px;
   top: 1891px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 300;
   font-size: 25px;
@@ -276,7 +273,7 @@ h3 {
   left: 259px;
   top: 2167px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 300;
   font-size: 25px;
@@ -293,7 +290,7 @@ h3 {
   left: 259px;
   top: 2277px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 300;
   font-size: 25px;
@@ -311,7 +308,7 @@ h3 {
   left: 40px;
   top: 2240px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 900;
   font-size: 110px;
@@ -338,7 +335,7 @@ h3 {
   top: 2731px;
 
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 300;
   font-size: 25px;
@@ -354,7 +351,7 @@ h3 {
   left: 241px;
   top: 2962px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 300;
   font-size: 25px;
@@ -372,7 +369,7 @@ h3 {
   left: 127px;
   top: 2776px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 900;
   font-size: 127px;
@@ -390,7 +387,7 @@ h3 {
   left: 131px;
   top: 2977px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 900;
   font-size: 127px;
@@ -408,7 +405,7 @@ h3 {
   left: 1072px;
   top: 2776px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 900;
   font-size: 127px;
@@ -465,7 +462,7 @@ h3 {
   left: 107px;
   top: 4055px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 900;
   font-size: 191px;
@@ -481,7 +478,7 @@ h3 {
   left: 240px;
   top: 4331px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 300;
   font-size: 25px;
@@ -517,7 +514,7 @@ h3 {
   left: 90px;
   top: 5612px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 900;
   font-size: 48px;
@@ -536,7 +533,7 @@ h3 {
   left: 240px;
   top: 5581px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 300;
   font-size: 25px;
@@ -568,7 +565,7 @@ h3 {
   left: 484px;
   top: 6799px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 900;
   font-size: 133px;
@@ -586,7 +583,7 @@ h3 {
   top: 7031px;
 
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 300;
   font-size: 25px;
@@ -602,7 +599,7 @@ h3 {
   left: 240px;
   top: 7321px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 300;
   font-size: 25px;
@@ -637,7 +634,7 @@ h3 {
   left: 240px;
   top: 8381px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 300;
   font-size: 25px;
@@ -653,7 +650,7 @@ h3 {
   left: 240px;
   top: 8641px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 300;
   font-size: 25px;
@@ -679,7 +676,7 @@ h3 {
   left: 127px;
   top: 9037px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
@@ -707,8 +704,9 @@ h3 {
   left: 127px;
   top: 9695px;
 
-  font-family: Proxima Nova Condensed;
+  font-family: 'Proxima Nova';
   font-style: normal;
+  font-stretch: condensed;
   font-weight: bold;
   font-size: 50px;
   line-height: 61px;
@@ -745,7 +743,8 @@ h3 {
   left: 127px;
   top: 10357px;
 
-  font-family: Proxima Nova Extra Condensed;
+  font-family: 'Proxima Nova';
+  font-stretch: extra-condensed;
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
@@ -771,7 +770,7 @@ h3 {
   left: 130px;
   top: 11027px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 300;
   font-size: 30px;
@@ -824,7 +823,7 @@ h3 {
   left: 130px;
   top: 13151px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 300;
   font-size: 30px;
@@ -841,7 +840,7 @@ h3 {
   left: 132px;
   top: 13281px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: bold;
   font-size: 100px;
@@ -860,7 +859,8 @@ h3 {
   list-style-type: none;
   text-align: right;
 
-  font-family: Proxima Nova;font-style: normal;
+  font-family: 'Proxima Nova';
+  font-style: normal;
   font-weight: bold;
   font-size: 30px;
   line-height: 40px;
@@ -876,7 +876,7 @@ h3 {
   left: 486px;
   top: 13700px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 900;
   font-size: 300px;
@@ -892,7 +892,7 @@ h3 {
   left: 128px;
   top: 14053px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 300;
   font-size: 30px;
@@ -947,7 +947,7 @@ h3 {
   left: 442px;
   top: 15930px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 300;
   font-size: 22px;
@@ -965,7 +965,7 @@ h3 {
   left: 546px;
   top: 15963px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
