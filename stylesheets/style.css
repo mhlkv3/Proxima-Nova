@@ -1,7 +1,9 @@
 @import 'reset.css';
 @import 'fonts.css';
 
-
+body {
+  font-family: "Proxima Nova"; 
+}
 body {
   font-family: "Proxima Nova";
   position: relative;
