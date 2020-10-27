@@ -1,6 +1,7 @@
 @import 'reset.css';
 @import 'fonts.css';
 
+
 body {
   font-family: 'Proxima Nova';
   position: relative;
@@ -9,6 +10,8 @@ body {
   display: block;
   margin: 0 auto;
   background: #FFFFFF;
+  
+
 }
 
 /* body::before {
@@ -28,6 +31,7 @@ html {
   height: 16085px;
   position: relative;
   scroll-behavior: smooth;
+
 
 }
 
@@ -424,7 +428,7 @@ h3 {
   left: 1076px;
   top: 2977px;
 
-  font-family: Proxima Nova;
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 900;
   font-size: 127px;
@@ -440,12 +444,16 @@ h3 {
   position: absolute;
   width: 1416px;
   height: 1028px;
-  left: 0px;
+  left: -68px;
   top: 3041px;
   overflow: hidden;
-  width: 1280px;
-  object-position: center;
+  width: 1416px;
+  height: 1028px;
+
+
 }
+
+
 
 .divider5 {
   position: absolute;
